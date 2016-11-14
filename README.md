@@ -16,8 +16,40 @@ Command Line Interface - для запуска в ручном режиме из
 
 Рекомендации: библиотека unittest.
 
+## Системные требования
+
+```
+Python 3.5.2+
+```
+
+## Установка
+
+```    
+git clone https://github.com/ram0973/18_price_format.git
+cd 18_price_format
+```
+
 ## Описание работы
 
+Пользователь вводит данные с консоли:  
+
+python format_price.py --s 1234.567890
+
+Скрипт убирает дробную часть из числа, и добавляет десятичные разряды 
+в виде пробелов, и выводит результат.
+
+Функцию format_price можно протестировать на корректность:
+
+python tests.py 
+
+## Запуск
+
+```
+(Windows) python format_price.py --s 1234.567890
+(Windows) python tests.py
+(Linux) python3 format_price.py --s 1234.567890
+(Linux) python3 tests.py
+```
 
  
 ## Лицензия

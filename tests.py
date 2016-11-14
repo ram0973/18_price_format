@@ -33,7 +33,7 @@ class FormatPriceTestCase(unittest.TestCase):
         self.assertEqual(price, '0')
 
     def test_price_can_be_positive_and_have_no_integer_part(self):
-        price = format_price('+.123456 ')
+        price = format_price('.123456 ')
         self.assertEqual(price, '0')
 
     def test_price_can_have_no_fractional_part(self):
@@ -45,7 +45,7 @@ class FormatPriceTestCase(unittest.TestCase):
         self.assertEqual(price, '-123 456 789')
 
     def test_price_is_not_rounding(self):
-        price = format_price('1.999999')
+        price = format_price('1.999999999999999999999999999999999999999999999')
         self.assertEqual(price, '1')
 
     def test_price_can_be_huge(self):
