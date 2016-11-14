@@ -45,8 +45,11 @@ python tests.py
 ## Запуск
 
 ```
+Проверка функции с консоли:
 (Windows) python format_price.py --s 1234.567890
 (Windows) python tests.py
+
+Запуск тестов:
 (Linux) python3 format_price.py --s 1234.567890
 (Linux) python3 tests.py
 ```
