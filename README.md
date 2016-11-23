@@ -1,60 +1,28 @@
-# Решение задачи [№18](https://devman.org/challenges/18/) с сайта [devman.org](https://devman.org)
-
-## Условие задачи:
-
-Одна из частых задач при разработке сайта - вывод на странице цен товара.
-
-Из базы данных приходит строка вида 3245.000000. 
-Нужно привести её к более наглядному виду 3 245.
-
-У программы должно быть два интерфейса:
-
-Программный - чтобы использовать её на сайте
-Command Line Interface - для запуска в ручном режиме из консоли
-Код должен стойко выносить некорректные входные данные, и не ломаться. 
-Чтобы быть в этом уверенным - напиши тесты для этой функции.
-
-Рекомендации: библиотека unittest.
-
-## Системные требования
-
+# Task [№18](https://devman.org/challenges/18/) from [devman](https://devman.org)
+## Requirements
 ```
 Python 3.5.2+
 ```
-
-## Установка
-
+## Setup
 ```    
 git clone https://github.com/ram0973/18_price_format.git
 cd 18_price_format
 ```
-
-## Описание работы
-
-Пользователь вводит данные с консоли:  
-
+## Description
+The user enters the data from the console:  
+```
 python format_price.py --s 1234.567890
-
-Скрипт убирает дробную часть из числа, и добавляет десятичные разряды 
-в виде пробелов, и выводит результат.
-
-Функцию format_price можно протестировать на корректность:
-
-python tests.py 
-
-## Запуск
-
 ```
-Проверка функции с консоли:
-(Windows) python format_price.py --s 1234.567890
-(Windows) python tests.py
-
-Запуск тестов:
-(Linux) python3 format_price.py --s 1234.567890
-(Linux) python3 tests.py
+The script removes the fractional part of the number, and adds the decimal places
+in the form of gaps, and outputs the result.
+format_price function can be tested for validness:
 ```
-
- 
-## Лицензия
-
+python tests.py
+```
+## Usage
+```
+python3 format_price.py --s 1234.567890
+python3 tests.py
+```
+## License
 [MIT](http://opensource.org/licenses/MIT)
