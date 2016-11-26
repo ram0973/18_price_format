@@ -5,7 +5,7 @@ The user enters the price from the console:
 python format_price.py --s 1234.567890
 ```
 The script removes the fractional part of the number, and adds the decimal places
-in the form of gaps, and outputs the result.
+in the form of gaps, and outputs the result: 1 234
 
 Also format_price function can be tested for validness:
 ```
