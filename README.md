@@ -1,13 +1,4 @@
 # Task [№18](https://devman.org/challenges/18/) from [devman](https://devman.org)
-## Requirements
-```
-Python 3.5.2+
-```
-## Setup
-```    
-git clone https://github.com/ram0973/18_price_format.git
-cd 18_price_format
-```
 ## Description
 The user enters the data from the console:  
 ```
@@ -18,6 +9,15 @@ in the form of gaps, and outputs the result.
 format_price function can be tested for validness:
 ```
 python tests.py
+```
+## Requirements
+```
+Python 3.5.2+
+```
+## Setup
+```    
+git clone https://github.com/ram0973/18_price_format.git
+cd 18_price_format
 ```
 ## Usage
 ```
