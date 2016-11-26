@@ -2,14 +2,14 @@
 ## Description
 User enters the price from the console:  
 ```
-python format_price.py --s 1234.567890
+python3 format_price.py --s 1234.567890
 ```
 Script removes the fractional part of the number, adds the decimal places
 in the form of gaps, and outputs the result: 1 234
 
 Also format_price function can be tested for validness:
 ```
-python tests.py
+python3 tests.py
 ```
 ## Requirements
 ```
