@@ -1,10 +1,10 @@
 # Task [№18](https://devman.org/challenges/18/) from [devman](https://devman.org)
 ## Description
-The user enters the price from the console:  
+User enters the price from the console:  
 ```
 python format_price.py --s 1234.567890
 ```
-The script removes the fractional part of the number, and adds the decimal places
+Script removes the fractional part of the number, adds the decimal places
 in the form of gaps, and outputs the result: 1 234
 
 Also format_price function can be tested for validness:
