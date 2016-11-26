@@ -6,7 +6,8 @@ python format_price.py --s 1234.567890
 ```
 The script removes the fractional part of the number, and adds the decimal places
 in the form of gaps, and outputs the result.
-format_price function can be tested for validness:
+
+Also format_price function can be tested for validness:
 ```
 python tests.py
 ```
