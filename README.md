@@ -1,6 +1,6 @@
 # Task [№18](https://devman.org/challenges/18/) from [devman](https://devman.org)
 ## Description
-The user enters the data from the console:  
+The user enters the price from the console:  
 ```
 python format_price.py --s 1234.567890
 ```
